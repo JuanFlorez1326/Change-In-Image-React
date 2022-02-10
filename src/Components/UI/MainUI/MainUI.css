@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+header {
+    background-color:rgb(104, 28, 28);
+    padding:30px;
+    margin-bottom:20px;
+    color:white;
+}
+.divGeneral {
+    text-align:center;
+    background-color:rgb(34, 32, 32);
+}
+.imgZenitsu {
+    width:50%;
+    height:50%;
+    border:2px solid gray;
+}
+
+footer {
+    background-color:gray;
+    color:rgb(26, 23, 23);
+    padding:20px;
+    margin-top:20px;
+}
+#btnAdd {
+    cursor: pointer;
+    width:50px;
+    height:25px;
+    border:none;
+    margin-right:10px;
+    background-color:brown;
+    border:1px solid gray;
+    border-radius:10px;
+    color:white;
+}
+#btnSubstract {
+    cursor: pointer;
+    height:25px;
+    width:50px;
+    border:none;
+    background-color:brown;
+    border:1px solid gray;
+    border-radius:10px;
+    color:white;
+}
+#btnReset {
+    height:25px;
+    color:white;
+    cursor: pointer;
+    width:100px;
+    border:none;
+    margin-right:10px;
+    background-color:brown;
+    border:1px solid gray;
+    border-radius:10px;
+}
+.divButton {
+    margin:12px;
+}
+#classAccountant{
+    color:white;
+    margin-top:10px;
+}
