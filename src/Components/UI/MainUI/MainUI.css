@@ -64,3 +64,9 @@ footer {
     color:white;
     margin-top:10px;
 }
+.filterInactivo {  
+    filter: grayscale(0%)
+} 
+.filterActivo {
+    filter: grayscale(90%);
+}

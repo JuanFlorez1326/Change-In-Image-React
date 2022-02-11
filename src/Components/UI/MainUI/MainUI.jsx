@@ -18,19 +18,21 @@ export const MainUI = () => {
         setAccountant(accountant - 5)
     }
 
-
-
     useEffect(() => {
-        if(accountant >= 20){
-            //--------------
+        const img = document.getElementById('zenitsu');
+
+        if (accountant >= 20) {
+
+          img.classList.remove('filterInactivo');
+          img.classList.add('filterActivo')
+
+        } else {
+
+          img.classList.remove('filterActivo');
+          img.classList.add('filterInactivo')
+
         }
-        else {
-            //--------------
-        }
-    },[accountant])
-
-
-
+    },[accountant]);
 
     return (
 
@@ -40,7 +42,7 @@ export const MainUI = () => {
             </header>
 
             <main>
-                <img src={image} alt="zenitsu" className="imgZenitsu"/>
+                <img src={image} alt="zenitsu" className="imgZenitsu" id="zenitsu"/>
                 <p id="classAccountant">{accountant}</p>
                 <div className="divButton">
                     <button id="btnAdd" onClick={haddleAdd}> + </button>    
